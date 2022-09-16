@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <input
+        type="search"
+        name="country"
+        id="search"
+        style="height: 40px; width: 400px"
+      />
+      <button style="height: 40px" onclick="findCountry()">Search</button>
+    </div>
+    <ol style="z-index: 99"></ol>
+    <div class="container center">
+      <div class="big-round round"></div>
+      <div class="middle-round round"></div>
+      <div class="small-round round"></div>
+      <div class="sub-container center">
+        <!-- <div class="sun"></div> -->
+        <div class="left-container">
+          <p>September 10, 2021</p>
+          <h1>Krakow</h1>
+          <img
+            src="./images/day-sun.png"
+            alt="nar bsan shv"
+            class="weather-icon"
+          />
+          <div class="temp high">26°</div>
+          <div class="state">Bright</div>
+          <footer>
+            <img class="footer-icon" src="./images/Home1.png" alt="" />
+            <img class="footer-icon" src="./images/Pin.png" alt="" />
+            <img class="footer-icon" src="./images/Heart.png" alt="" />
+            <img class="footer-icon" src="./images/User.png" alt="" />
+          </footer>
+        </div>
+      </div>
+      <div
+        class="sub-container center"
+        style="background-color: #111827; color: white"
+      >
+        <div class="moon"></div>
+        <div class="left-container right-container">
+          <p>September 10, 2021</p>
+          <h1>Krakow</h1>
+          <img
+            src="./images/day-sun.png"
+            alt="nar bsan shv"
+            class="weather-icon"
+          />
+          <div class="temp low">26°</div>
+          <div class="state">Bright</div>
+          <footer>
+            <img class="footer-icon" src="./images/Home.png" alt="" />
+            <img class="footer-icon" src="./images/Pin.png" alt="" />
+            <img class="footer-icon" src="./images/Heart.png" alt="" />
+            <img class="footer-icon" src="./images/User.png" alt="" />
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
