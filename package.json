@@ -1,0 +1,19 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "darksky, mapbox",
+  "homepage": "https://tergeltengis.github.io/weather-app",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --dist-dir ./dist",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
