@@ -67,10 +67,10 @@ const secFunction = async (lat, lng, place_name) => {
 
     document.querySelectorAll(
       ".weather-icon"
-    )[0].src = `./static/images/day/${today.weather[0].main}.png`;
+    )[0].src = `${today.weather[0].main}.png`;
     document.querySelectorAll(
       ".weather-icon"
-    )[1].src = `./static/images/night/${today.weather[0].main}.png`;
+    )[1].src = `n${today.weather[0].main}.png`;
   } catch (error) {
     console.log(error);
   }
